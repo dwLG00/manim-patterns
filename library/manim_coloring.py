@@ -5,7 +5,6 @@ from manim import *
 def set_color(li: list, color: list, animate=False):
 	'''Set color of each object in li to corresponding color in color. If animate is set to True, instead return a list of animations.'''
 
-	assert len(li) == len(color)
 	if animate:
 		animations = []
 		for i, obj in enumerate(li):
